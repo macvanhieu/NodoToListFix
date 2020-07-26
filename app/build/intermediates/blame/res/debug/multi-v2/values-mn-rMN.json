@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\NoteToDoList-master\\NoteToDoList-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn-rMN\\values-mn-rMN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a45f3d1b3bf88cebec3503b0e9670847\\res\\values-mn-rMN\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "267,370,481,563,663,784,888,990,1081,1176,1269",
+                        "endColumns": "102,110,81,99,120,103,101,90,94,92,102",
+                        "endOffsets": "365,476,558,658,779,883,985,1076,1171,1264,1367"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,319,401,501,622,726,828,919,1014,1107",
+                        "endColumns": "102,110,81,99,120,103,101,90,94,92,102",
+                        "endOffsets": "203,314,396,496,617,721,823,914,1009,1102,1205"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Chia sẻ"
+        android:id="@+id/menu_share"/>
+    <item android:title="Xóa"
+        android:id="@+id/menu_delete"/>
+    <item android:title="@string/save"
+        app:showAsAction="always"
+        android:id="@+id/menu_saveUpdate" />
+    <item android:title="Yêu thích"
+        android:id="@+id/menu_fav"
+        android:icon="@drawable/star"
+        app:showAsAction="always"
+        />
+    <item app:showAsAction="always"
+        android:title="voice"
+        android:id="@+id/voice"
+        android:visible="false"
+        android:icon="@drawable/ic_voice"/>
+
+</menu>

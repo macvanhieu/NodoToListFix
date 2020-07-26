@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\NoteToDoList-master\\NoteToDoList-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te-rIN\\values-te-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a45f3d1b3bf88cebec3503b0e9670847\\res\\values-te-rIN\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "267,376,494,579,690,813,929,1030,1123,1221,1319",
+                        "endColumns": "108,117,84,110,122,115,100,92,97,97,101",
+                        "endOffsets": "371,489,574,685,808,924,1025,1118,1216,1314,1416"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,332,417,528,651,767,868,961,1059,1157",
+                        "endColumns": "108,117,84,110,122,115,100,92,97,97,101",
+                        "endOffsets": "209,327,412,523,646,762,863,956,1054,1152,1254"
+                    }
+                }
+            ]
+        }
+    ]
+}

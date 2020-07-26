@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light"
+    tools:context=".view.MainActivity">
+
+    <!--    Xử lý thanh menu-->
+    <include layout="@layout/layout_toolbar" />
+
+    <!--    Danh sách -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layouttoolbar"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tvNotNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/not_note"
+        android:textColor="@color/color_hint"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/not"
+        android:textColor="@color/color_hint"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <!--    Nút tròn-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbAdd"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_big"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:srcCompat="@drawable/ic_add" />
+
+</RelativeLayout>

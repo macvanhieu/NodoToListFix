@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="@dimen/margin_5"
+        card_view:cardElevation="@dimen/margin_5"
+        card_view:cardUseCompatPadding="true"
+        android:stateListAnimator="@anim/lift_on_touch"
+        android:clickable="true"
+        card_view:cardPreventCornerOverlap="false"
+        android:id="@+id/cardviewitem"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_width_heigth_big"
+            android:layout_marginLeft="@dimen/margin_mid"
+            android:layout_marginTop="@dimen/margin_mid"
+            android:layout_marginBottom="@dimen/margin_mid"
+            android:id="@+id/layoutitem"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_18"
+                android:textColor="@android:color/black"
+                android:maxLines="1"
+                android:id="@+id/tvTitle"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content"
+                android:textSize="@dimen/text_15"
+                android:textColor="@color/color_text"
+                android:layout_below="@+id/tvTitle"
+                android:layout_marginTop="@dimen/margin_5"
+                android:maxLines="2"
+                android:id="@+id/tvContent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textSize="@dimen/text_13"
+                android:textColor="@color/color_text"
+                android:layout_below="@+id/tvContent"
+                android:layout_marginTop="@dimen/margin_5"
+                android:id="@+id/tvDate"
+                />
+
+
+            <TextView
+                android:id="@+id/time_select"
+                android:layout_width="match_parent"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_below="@+id/tvDate"
+                android:textColor="@color/color_text"
+                tools:text="Repeat No and Type"/>
+
+            <ImageView
+                android:layout_width="@dimen/layout_30"
+                android:layout_height="@dimen/layout_30"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_centerVertical="true"
+                android:src="@drawable/star"
+                android:id="@+id/imageFv"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/layout_25"
+                android:layout_height="@dimen/layout_25"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_centerVertical="true"
+                android:src="@drawable/check"
+                android:layout_toLeftOf="@id/imageFv"
+                android:id="@+id/checkFinistToDo"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/layout_25"
+                android:layout_height="@dimen/layout_25"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_delete_24px"
+                android:id="@+id/imageDel"
+                android:layout_toLeftOf="@id/checkFinistToDo"
+                android:tint="@color/colorPrimary"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_centerVertical="true"
+                android:layout_height="25dp"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_toLeftOf="@id/imageDel"
+                android:src="@drawable/ic_notifications_off_grey600_24dp"
+                android:id="@+id/active_image"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

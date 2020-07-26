@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Tất cả"
+        android:id="@+id/menu_all"/>
+    <item android:title="Yêu thích"
+        android:id="@+id/menu_favorite"/>
+    <item android:title="Công việc hoàn thành"
+        android:id="@+id/menu_finish"/>
+</menu>

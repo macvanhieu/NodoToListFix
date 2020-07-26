@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\NoteToDoList-master\\NoteToDoList-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a45f3d1b3bf88cebec3503b0e9670847\\res\\values-gl-rES\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "267,375,490,570,701,825,960,1056,1150,1248,1339",
+                        "endColumns": "107,114,79,130,123,134,95,93,97,90,100",
+                        "endOffsets": "370,485,565,696,820,955,1051,1145,1243,1334,1435"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,328,408,539,663,798,894,988,1086,1177",
+                        "endColumns": "107,114,79,130,123,134,95,93,97,90,100",
+                        "endOffsets": "208,323,403,534,658,793,889,983,1081,1172,1273"
+                    }
+                }
+            ]
+        }
+    ]
+}

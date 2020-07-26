@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\NoteToDoList-master\\NoteToDoList-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a45f3d1b3bf88cebec3503b0e9670847\\res\\values-uz-rUZ\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "267,372,487,568,680,799,915,1009,1100,1195,1284",
+                        "endColumns": "104,114,80,111,118,115,93,90,94,88,102",
+                        "endOffsets": "367,482,563,675,794,910,1004,1095,1190,1279,1382"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,325,406,518,637,753,847,938,1033,1122",
+                        "endColumns": "104,114,80,111,118,115,93,90,94,88,102",
+                        "endOffsets": "205,320,401,513,632,748,842,933,1028,1117,1220"
+                    }
+                }
+            ]
+        }
+    ]
+}

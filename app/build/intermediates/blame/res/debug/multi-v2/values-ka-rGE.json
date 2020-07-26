@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\NoteToDoList-master\\NoteToDoList-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a45f3d1b3bf88cebec3503b0e9670847\\res\\values-ka-rGE\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "267,372,484,567,679,798,911,1007,1099,1192,1280",
+                        "endColumns": "104,111,82,111,118,112,95,91,92,87,95",
+                        "endOffsets": "367,479,562,674,793,906,1002,1094,1187,1275,1371"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,322,405,517,636,749,845,937,1030,1118",
+                        "endColumns": "104,111,82,111,118,112,95,91,92,87,95",
+                        "endOffsets": "205,317,400,512,631,744,840,932,1025,1113,1209"
+                    }
+                }
+            ]
+        }
+    ]
+}
